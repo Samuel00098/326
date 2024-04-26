@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Editor Marketplace</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Video Editor Marketplace</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#editors">Find Editors</a></li>
+        <li><a href="#hire">Hire Editors</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Welcome to Video Editor Marketplace! We connect talented video editors with clients looking to hire them.</p>
+  </section>
+
+  <section id="editors">
+    <h2>Find Editors</h2>
+    <p>Browse our database of skilled video editors ready to work on your projects.</p>
+    <!-- List of editors goes here -->
+  </section>
+
+  <section id="hire">
+    <h2>Hire Editors</h2>
+    <p>If you're looking to hire a video editor, fill out our form and we'll match you with the perfect candidate.</p>
+    <!-- Hiring form goes here -->
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions or feedback? Reach out to us at info@videoeditormarketplace.com</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Video Editor Marketplace. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+
+
+
+/* styles.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffc107;
+}
+
+/* Section Styles */
+section {
+  padding: 2rem;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+
+
+
